@@ -2,13 +2,13 @@ Summary:	Frontend to PWN Oxford 2003 dictionary
 Summary(pl):	Interfejs do s³ownika PWN Oxford 2003
 Name:		kpwndict
 Version:	0.1.3
-Release:	1
+Release:	0.1
 License:	GPL
 Group:		Applications/Dictionaries
 Source0:	http://members.elysium.pl/ytm/src/%{name}-%{version}.tar.bz2
 # Source0-md5:	62a70a6a4435983a5b66cae96981f2b5
-Source1:	%{name}.desktop
-Source2:	%{name}.png
+#Source1:	%{name}.desktop
+#Source2:	%{name}.png
 URL:		http://members.elysium.pl/ytm/html/kpwndict.html
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -41,8 +41,8 @@ install -d $RPM_BUILD_ROOT%{_bindir} \
 
 install src/kpwndict $RPM_BUILD_ROOT%{_bindir}
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
-install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
+#install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+#install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 install src/kpwndict_pl.qm $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 %clean
