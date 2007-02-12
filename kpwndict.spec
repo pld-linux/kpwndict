@@ -1,5 +1,5 @@
 Summary:	Frontend to PWN Oxford 2003 dictionary
-Summary(pl):	Interfejs do s≥ownika PWN Oxford 2003
+Summary(pl.UTF-8):   Interfejs do s≈Çownika PWN Oxford 2003
 Name:		kpwndict
 Version:	0.1.3
 Release:	0.1
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Kpwndict is a Qt frontend for PWN Oxford 2003 English-Polish
 dictionary.
 
-%description -l pl
-Kpwndict to interfejs do s≥ownika angielsko-polskiego PWN Oxford 2003.
+%description -l pl.UTF-8
+Kpwndict to interfejs do s≈Çownika angielsko-polskiego PWN Oxford 2003.
 
 %prep
 %setup -q
