@@ -1,5 +1,5 @@
 Summary:	Frontend to PWN Oxford 2003 dictionary
-Summary(pl.UTF-8):   Interfejs do słownika PWN Oxford 2003
+Summary(pl.UTF-8):	Interfejs do słownika PWN Oxford 2003
 Name:		kpwndict
 Version:	0.1.3
 Release:	0.1
